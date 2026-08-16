@@ -1,0 +1,32 @@
+// Display names keyed by ISO 3166-2:UA code. These are the names shown in the
+// UI; they intentionally override the raw `title` attributes baked into the
+// source SVG (which use outdated transliterations like "Kiev" / "Odessa").
+export const REGION_NAMES = {
+  'UA-05': 'Vinnytsia',
+  'UA-07': 'Volyn',
+  'UA-09': 'Luhansk',
+  'UA-12': 'Dnipropetrovsk',
+  'UA-14': 'Donetsk',
+  'UA-18': 'Zhytomyr',
+  'UA-21': 'Zakarpattia',
+  'UA-23': 'Zaporizhzhia',
+  'UA-26': 'Ivano-Frankivsk',
+  'UA-30': 'Kyiv',
+  'UA-32': 'Kyiv Oblast',
+  'UA-35': 'Kirovohrad',
+  'UA-40': 'Sevastopol',
+  'UA-43': 'Crimea',
+  'UA-46': 'Lviv',
+  'UA-48': 'Mykolaiv',
+  'UA-51': 'Odesa',
+  'UA-53': 'Poltava',
+  'UA-56': 'Rivne',
+  'UA-59': 'Sumy',
+  'UA-61': 'Ternopil',
+  'UA-63': 'Kharkiv',
+  'UA-65': 'Kherson',
+  'UA-68': 'Khmelnytskyi',
+  'UA-71': 'Cherkasy',
+  'UA-74': 'Chernihiv',
+  'UA-77': 'Chernivtsi',
+}
